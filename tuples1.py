@@ -34,3 +34,8 @@ print('iterating in a tuple:')
 for x in tup:
 	print(str(x) + ' ', end = "")
 print()
+
+print('length of the tup is: ' + str(len(tup)))
+tup3 = 5, 7, 1, 4
+print('max element of the tuple3 is ' + str(max(tup3)))
+print('min element of the tuple3 is ' + str(min(tup3)))
