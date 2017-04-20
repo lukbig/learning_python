@@ -5,5 +5,10 @@ y = [4, 5, 6]
 zipped = zip(x,y)
 for i in zipped:
 	print(i)
+'''ouput:
+	(1, 4)
+	(2, 5)
+	(3, 6)
+'''
 
 print('list of zipped: ' + str(list(zipped)))
